@@ -13,5 +13,6 @@ body {
 
 .box:hover {
   /* transform: translate(50px, 20px); */
-  transform: rotate(30deg);
+  /* transform: scale(0.5, 2); */
+  transform: rotate(30deg) translateX(100px);
 }
