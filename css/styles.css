@@ -9,10 +9,12 @@ body {
 
   transition-property: transform;
   transition-duration: 1s;
+  transform-origin: top left;
 }
 
 .box:hover {
   /* transform: translate(50px, 20px); */
   /* transform: scale(0.5, 2); */
-  transform: rotate(30deg) translateX(100px);
+
+  transform: rotate(30deg);
 }
